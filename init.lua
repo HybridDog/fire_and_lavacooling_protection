@@ -13,7 +13,7 @@ if change_fire then
 		if action_allowed(pos) then
 			return fire_allowed(pos)
 		end
-		return false
+		return true
 	end
 end
 
